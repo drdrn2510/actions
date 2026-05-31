@@ -22,4 +22,4 @@ jobs:
           token: ${{ secrets.SLACK_BOT_TOKEN }}
           payload: |
             channel: "${{ secrets.SLACK_CHANNEL_ID }}"
-            text: "🚀 Deployment successful! The latest changes are now live ."
+            text: "🚀 Deployment successful! The latest changes are now live."
